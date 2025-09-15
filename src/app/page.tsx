@@ -1,4 +1,4 @@
-import { CloudIcon } from '@heroicons/react/24/outline'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -63,7 +63,7 @@ export default function Home() {
                   <div className="text-blue-100 mb-6">Nublado</div>
                   
                   <div className="bg-black/20 rounded-lg p-4 text-sm italic max-w-48">
-                    "Nublado otra vez, la puta madre. Día re contra gris del carajo."
+                    &ldquo;Nublado otra vez, la puta madre. Día re contra gris del carajo.&rdquo;
                   </div>
                 </div>
                 
@@ -80,9 +80,9 @@ export default function Home() {
       <footer className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8">
         <div className="text-center text-gray-600">
           <p className="mb-2">© 2025 Pronóstico Bardero. Hecho en Argentina 🇦🇷</p>
-          <a href="#" className="text-blue-600 hover:text-blue-800 underline">
+          <Link href="/privacy" className="text-blue-600 hover:text-blue-800 underline">
             Política de Privacidad
-          </a>
+          </Link>
         </div>
       </footer>
     </div>
