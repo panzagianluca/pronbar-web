@@ -173,7 +173,7 @@ export default function PrivacyPolicy() {
             </p>
             <div className="mt-4 p-4 bg-blue-50 rounded-lg">
               <p className="text-gray-800">
-                <strong>Email:</strong> privacy@pronosticobardero.com<br/>
+                <strong>Email:</strong> panzaguardattigianluca@gmail.com<br/>
                 <strong>Asunto:</strong> Consulta sobre Política de Privacidad - Pronóstico Bardero
               </p>
             </div>
